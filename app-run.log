@@ -1,0 +1,388 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.marawan:swiftdrop >------------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.2.0-M2:run (default-cli) > test-compile @ swiftdrop >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ swiftdrop ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.16.0:compile (default-compile) @ swiftdrop ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ swiftdrop ---
+[INFO] skip non existing resourceDirectory D:\Project\swiftdrop\swiftdrop\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.16.0:testCompile (default-testCompile) @ swiftdrop ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.2.0-M2:run (default-cli) < test-compile @ swiftdrop <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.2.0-M2:run (default-cli) @ swiftdrop ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::             (v4.2.0-M2)
+
+2026-10-08T06:23:07.028+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] c.m.swiftdrop.SwiftdropApplication       : Starting SwiftdropApplication using Java 25.0.2 with PID 23212 (D:\Project\swiftdrop\swiftdrop\target\classes started by ENG.Marawan in D:\Project\swiftdrop\swiftdrop)
+2026-10-08T06:23:07.035+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] c.m.swiftdrop.SwiftdropApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-08T06:23:07.095+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-08T06:23:07.146+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-08T06:23:07.983+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-08T06:23:08.058+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2026-10-08T06:23:08.788+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-08T06:23:08.805+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-08T06:23:08.807+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.26]
+2026-10-08T06:23:08.863+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1715 ms
+2026-10-08T06:23:09.034+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-08T06:23:09.111+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.9.Final
+2026-10-08T06:23:09.878+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-08T06:23:09.934+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-08T06:23:10.235+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a3a8a50
+2026-10-08T06:23:10.249+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-08T06:23:10.373+03:00  WARN 23212 --- [swiftdrop] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-08T06:23:10.420+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/swiftdrop_db?useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: swiftdrop_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-08T06:23:12.132+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-08T06:23:12.295+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08T06:23:12.434+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-08T06:23:13.020+03:00  WARN 23212 --- [swiftdrop] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-08T06:23:13.064+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-10-08T06:23:13.699+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2026-10-08T06:23:13.701+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@9174625]]
+2026-10-08T06:23:13.706+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2026-10-08T06:23:13.714+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2026-10-08T06:23:13.715+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@9174625]]
+2026-10-08T06:23:13.716+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2026-10-08T06:23:13.718+03:00  WARN 23212 --- [swiftdrop] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-10-08T06:23:13.721+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-08T06:23:13.724+03:00  INFO 23212 --- [swiftdrop] [  restartedMain] com.zaxx2026-10-08T06:23:29.631+03:00  INFO 13112 --- [swiftdrop] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-08T06:23:29.632+03:00  INFO 13112 --- [swiftdrop] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-08T06:23:29.635+03:00  INFO 13112 --- [swiftdrop] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: insert into restaurants (address,category,image,latitude,longitude,name,rating) values (?,?,?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select r1_0.id,r1_0.address,r1_0.category,r1_0.image,r1_0.latitude,r1_0.longitude,r1_0.name,r1_0.rating from restaurants r1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select r1_0.id,r1_0.address,r1_0.category,r1_0.image,r1_0.latitude,r1_0.longitude,r1_0.name,r1_0.rating from restaurants r1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select count(*) from restaurants r1_0 where r1_0.id=?
+Hibernate: select mi1_0.id,mi1_0.description,mi1_0.image,mi1_0.name,mi1_0.price,mi1_0.restaurant_id from menu_items mi1_0 where mi1_0.restaurant_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select count(*) from restaurants r1_0 where r1_0.id=?
+Hibernate: select mi1_0.id,mi1_0.description,mi1_0.image,mi1_0.name,mi1_0.price,mi1_0.restaurant_id from menu_items mi1_0 where mi1_0.restaurant_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select count(*) from restaurants r1_0 where r1_0.id=?
+Hibernate: select mi1_0.id,mi1_0.description,mi1_0.image,mi1_0.name,mi1_0.price,mi1_0.restaurant_id from menu_items mi1_0 where mi1_0.restaurant_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select count(*) from restaurants r1_0 where r1_0.id=?
+Hibernate: select mi1_0.id,mi1_0.description,mi1_0.image,mi1_0.name,mi1_0.price,mi1_0.restaurant_id from menu_items mi1_0 where mi1_0.restaurant_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: insert into orders (customer_id,driver_id,order_details,status,total_price) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.driver_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select r1_0.id,r1_0.address,r1_0.category,r1_0.image,r1_0.latitude,r1_0.longitude,r1_0.name,r1_0.rating from restaurants r1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+2026-10-08T06:35:31.754+03:00  WARN 13112 --- [swiftdrop] [nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,c1_0.id,c1_0.email,c1_0.password,c1_0.phone,c1_0.role,c1_0.username,d1_0.id,d1_0.email,d1_0.password,d1_0.phone,d1_0.role,d1_0.username,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 left join users c1_0 on c1_0.id=o1_0.customer_id left join users d1_0 on d1_0.id=o1_0.driver_id where o1_0.id=?
+Hibernate: update orders set customer_id=?,driver_id=?,order_details=?,status=?,total_price=? where id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+2026-10-08T06:35:38.427+03:00  WARN 13112 --- [swiftdrop] [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,c1_0.id,c1_0.email,c1_0.password,c1_0.phone,c1_0.role,c1_0.username,d1_0.id,d1_0.email,d1_0.password,d1_0.phone,d1_0.role,d1_0.username,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 left join users c1_0 on c1_0.id=o1_0.customer_id left join users d1_0 on d1_0.id=o1_0.driver_id where o1_0.id=?
+Hibernate: update orders set customer_id=?,driver_id=?,order_details=?,status=?,total_price=? where id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.driver_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.driver_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.driver_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select r1_0.id,r1_0.address,r1_0.category,r1_0.image,r1_0.latitude,r1_0.longitude,r1_0.name,r1_0.rating from restaurants r1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.driver_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,c1_0.id,c1_0.email,c1_0.password,c1_0.phone,c1_0.role,c1_0.username,d1_0.id,d1_0.email,d1_0.password,d1_0.phone,d1_0.role,d1_0.username,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 left join users c1_0 on c1_0.id=o1_0.customer_id left join users d1_0 on d1_0.id=o1_0.driver_id where o1_0.id=?
+Hibernate: update orders set customer_id=?,driver_id=?,order_details=?,status=?,total_price=? where id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.driver_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.driver_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,c1_0.id,c1_0.email,c1_0.password,c1_0.phone,c1_0.role,c1_0.username,d1_0.id,d1_0.email,d1_0.password,d1_0.phone,d1_0.role,d1_0.username,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 left join users c1_0 on c1_0.id=o1_0.customer_id left join users d1_0 on d1_0.id=o1_0.driver_id where o1_0.id=?
+Hibernate: update orders set customer_id=?,driver_id=?,order_details=?,status=?,total_price=? where id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.driver_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.status=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select r1_0.id,r1_0.address,r1_0.category,r1_0.image,r1_0.latitude,r1_0.longitude,r1_0.name,r1_0.rating from restaurants r1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+Hibernate: select o1_0.id,o1_0.customer_id,o1_0.driver_id,o1_0.order_details,o1_0.status,o1_0.total_price from orders o1_0 where o1_0.customer_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password,u1_0.phone,u1_0.role,u1_0.username from users u1_0 where u1_0.id=?
+2026-10-08T06:52:13.074+03:00  INFO 13112 --- [swiftdrop] [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
